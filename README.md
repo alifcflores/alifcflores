@@ -17,9 +17,6 @@
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>
 
-
-
-
 *Experience with:*
 - Manual Tests
 - Automated / End-to-end Tests 
@@ -29,7 +26,18 @@
 - Functional and Regression Testing
 - Smoke Tests
 
-    
+### Code Challenges (Using [Exercism](https://exercism.org/))
+| Project   |      Description      | 
+|----------|:-------------:|
+| [Bank-Account](https://github.com/alifcflores/bank-account) |  Simulate a bank account supporting opening/closing, withdrawals, and deposits of money. 
+| [Leap](https://github.com/alifcflores/leap) |    Given a year, report if it is a leap year.   |  
+| [Elyses Enchantments](https://github.com/alifcflores/elyses-enchantments)| Working with stacks in javascript | 
+| [Annalyns Infiltration](https://github.com/alifcflores/annalyns-infiltration)| Be implementing the quest logic for a new RPG game a friend is developing.  | 
+| [Vehicle Purchase](https://github.com/alifcflores/vehicle-purchase)| Determine if you will need to get a licence, help you choose between two vehicles and to estimate the acceptable price for a used vehicle.  |
+| [Freelancer Rates](https://github.com/alifcflores/freelancer-rates)| You will be writing code to help a freelancer communicate with his clients about the prices of certain projects. | 
+| [Poetry Club Door Policy](https://github.com/alifcflores/poetry-club-door-policy)| A new poetry club has opened in town, and you're thinking of attending. Because there have been incidents in the past, the club has a very specific door policy which you'll need to master | 
+| [Lasagna](https://github.com/alifcflores/lasagna)| You're going to write some code to help Lucian cook an exquisite lasagna from his favorite cookbook. | 
+
 <!--
 **alifcflores/alifcflores** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
