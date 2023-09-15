@@ -26,6 +26,16 @@
 - Functional and Regression Testing
 - Smoke Tests
 
+
+### Personal Projects
+| Project   |      Description      | 
+|----------|:-------------:|
+| [API Sicredi](https://github.com/alifcflores/api-sicredi) | Technical challenge for Sicredi company using Java and RestAssured. | 
+| [API Finances](https://github.com/alifcflores/finances) |  API I'm building to control my personal finances.   |  
+| [Cypress Training](https://github.com/alifcflores/cypress-training)| This was a training I carried out for the QAs team at the company CredPago. | 
+| [Deel Tests](https://github.com/alifcflores/deel-tests)| Technical challenge carried out in Cypress for Deel company.  | 
+| [CP Performance](https://github.com/alifcflores/cp-performance)| pilot project using K6, docker and grafana | 
+
 ### Code Challenges (Using [Exercism](https://exercism.org/))
 | Project   |      Description      | 
 |----------|:-------------:|
@@ -35,20 +45,5 @@
 | [Annalyns Infiltration](https://github.com/alifcflores/annalyns-infiltration)| Be implementing the quest logic for a new RPG game a friend is developing.  | 
 | [Vehicle Purchase](https://github.com/alifcflores/vehicle-purchase)| Determine if you will need to get a licence, help you choose between two vehicles and to estimate the acceptable price for a used vehicle.  |
 | [Freelancer Rates](https://github.com/alifcflores/freelancer-rates)| You will be writing code to help a freelancer communicate with his clients about the prices of certain projects. | 
-| [Poetry Club Door Policy](https://github.com/alifcflores/poetry-club-door-policy)| A new poetry club has opened in town, and you're thinking of attending. Because there have been incidents in the past, the club has a very specific door policy which you'll need to master | 
+| [Poetry Club Door Policy](https://github.com/alifcflores/poetry-club-door-policy)| You're thinking of attending to poetry club. But the club has a very specific door policy which you'll need to master. | 
 | [Lasagna](https://github.com/alifcflores/lasagna)| You're going to write some code to help Lucian cook an exquisite lasagna from his favorite cookbook. | 
-
-<!--
-**alifcflores/alifcflores** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
