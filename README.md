@@ -37,6 +37,8 @@
 | [CP Performance](https://github.com/alifcflores/cp-performance)| pilot project using K6, docker and grafana | 
 
 ### Code Challenges (Using [Exercism](https://exercism.org/))
+Exercism provides technical challenges with an engaging story. The repositories below are my solutions to the proposed challenges.
+
 | Project   |      Description      | 
 |----------|:-------------:|
 | [Bank-Account](https://github.com/alifcflores/bank-account) |  Simulate a bank account supporting opening/closing, withdrawals, and deposits of money. 
