@@ -1,5 +1,5 @@
 ## Alif Corrêa Flores
-5+ years of experience as a QA Engineer
+6 years of experience as a QA Engineer
 
 *Main Tecnologies / Stack:*
 
