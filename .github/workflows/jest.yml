@@ -28,14 +28,13 @@ jobs:
   manual-approval:
       # needs: run-tests
       runs-on: ubuntu-latest
-
+      timeout-minutes: 2
       steps:
         - uses: trstringer/manual-approval@v1
           with:
             secret: ${{ github.TOKEN }}
             approvers: alifcflores
             minimum-approvals: 1
-            timeout-minutes: 2
             issue-title: "Deploying v1.3.5 to prod from staging"
             issue-body: "Please approve or deny the deployment of version v1.3.5."
             exclude-workflow-initiator-as-approver: false
