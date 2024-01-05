@@ -25,7 +25,8 @@ jobs:
         run: yarn test
 
   manual-approval:
-      # needs: run-tests
+      needs: run-tests
+      if: failure()
       runs-on: ubuntu-latest
       timeout-minutes: 2
       steps:
