@@ -1,0 +1,54 @@
+name: Testes Jest
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  # run-tests:
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Checkout repositório
+  #       uses: actions/checkout@v2
+
+  #     - name: Configurar Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+
+  #     - name: Instalar dependências
+  #       run: yarn install
+
+  #     - name: Executar testes
+  #       id: run-tests
+  #       run: |
+  #         yarn test transformRawData.test.js --json --outputFile=${{ github.workspace }}/jest-results.json || echo "Tests failed, but continuing..."
+
+  manual-approval:
+      # needs: run-tests
+      runs-on: ubuntu-latest
+
+      steps:
+        - uses: trstringer/manual-approval@v1
+          with:
+            secret: ${{ github.TOKEN }}
+            approvers: alifcflores
+            minimum-approvals: 1
+            timeout-minutes: 2
+            issue-title: "Deploying v1.3.5 to prod from staging"
+            issue-body: "Please approve or deny the deployment of version v1.3.5."
+            exclude-workflow-initiator-as-approver: false
+            additional-approved-words: 'Approved'
+            additional-denied-words: 'Denied!'
+
+  upload-artifacts:
+      needs: manual-approval
+      runs-on: ubuntu-latest
+      steps:
+        - name: Upload dos resultados como artefato
+          # if: always() && failure()
+          uses: actions/upload-artifact@v2
+          with:
+            name: test-results
+            path: ${{ github.workspace }}/jest-results.json
