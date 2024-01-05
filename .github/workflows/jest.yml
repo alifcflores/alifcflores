@@ -5,26 +5,6 @@ on:
     branches:
       - main
 jobs:
-  # run-tests:
-  #   runs-on: ubuntu-latest
-
-  #   steps:
-  #     - name: Checkout repositório
-  #       uses: actions/checkout@v2
-
-  #     - name: Configurar Node.js
-  #       uses: actions/setup-node@v3
-  #       with:
-  #         node-version: 18
-
-  #     - name: Instalar dependências
-  #       run: yarn install
-
-  #     - name: Executar testes
-  #       id: run-tests
-  #       run: |
-  #         yarn test transformRawData.test.js --json --outputFile=${{ github.workspace }}/jest-results.json || echo "Tests failed, but continuing..."
-
   manual-approval:
       # needs: run-tests
       runs-on: ubuntu-latest
