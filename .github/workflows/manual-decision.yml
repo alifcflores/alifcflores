@@ -28,10 +28,10 @@ jobs:
     steps:
     - name: Decisão Manual
       id: decisao_manual
-      uses: actions/github-script@v5
+      uses: actions/github-script@v6
       with:
         script: |
-          const response = await github.repos.createDispatchEvent({
+          const response = await github.rest.repos.createDispatchEvent({
             owner: context.repo.owner,
             repo: context.repo.repo,
             event_type: 'manual-decision',
