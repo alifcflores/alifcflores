@@ -36,7 +36,7 @@ jobs:
             approvers: alifcflores
             minimum-approvals: 1
             issue-title: "Testes Resultaram em Falha - Necessário sua Aprovação Manual"
-            issue-body: "Revise o resultado dos testes manualmente e Aprove respondendo 'Approved' ou cancele o seguimento do pipeline respondendo 'Denied'"
+            issue-body: "Revise o resultado dos testes manualmente: Aprove respondendo 'Approved' ou cancele o seguimento do pipeline respondendo 'Denied'"
             exclude-workflow-initiator-as-approver: false
             additional-approved-words: 'Approved'
             additional-denied-words: 'Denied!'
