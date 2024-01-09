@@ -24,31 +24,22 @@ jobs:
         id: run-tests
         run: yarn test
 
-  # manual-approval:
-  #     needs: run-tests
-  #     if: failure()
-  #     runs-on: ubuntu-latest
-  #     timeout-minutes: 2
-  #     steps:
-  #       - uses: trstringer/manual-approval@v1
-  #         with:
-  #           secret: ${{ github.TOKEN }}
-  #           approvers: alifcflores
-  #           minimum-approvals: 1
-  #           issue-title: "Testes Resultaram em Falha - Necessário sua Aprovação Manual"
-  #           issue-body: "Revise o resultado dos testes manualmente: Aprove respondendo 'Approved' ou cancele o seguimento do pipeline respondendo 'Denied'"
-  #           exclude-workflow-initiator-as-approver: false
-  #           additional-approved-words: 'Approved'
-  #           additional-denied-words: 'Denied!'
-
- acao_condicional:
-    runs-on: ubuntu-latest
-    needs: decisao_manual
-    if: github.event_name == 'repository_dispatch' && github.event.client_payload.message == 'Por favor, tome uma decisão manual.'
-
-    steps:
-    - name: Ação Condicional
-      run: echo "Executando ação condicional após decisão manual."
+  manual-approval:
+      needs: run-tests
+      if: failure()
+      runs-on: ubuntu-latest
+      timeout-minutes: 2
+      steps:
+        - uses: trstringer/manual-approval@v1
+          with:
+            secret: ${{ github.TOKEN }}
+            approvers: alifcflores
+            minimum-approvals: 1
+            issue-title: "Testes Resultaram em Falha - Necessário sua Aprovação Manual"
+            issue-body: "Revise o resultado dos testes manualmente: Aprove respondendo 'Approved' ou cancele o seguimento do pipeline respondendo 'Denied'"
+            exclude-workflow-initiator-as-approver: false
+            additional-approved-words: 'Approved'
+            additional-denied-words: 'Denied!'
 
   upload-artifacts:
       needs: manual-approval
