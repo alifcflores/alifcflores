@@ -27,7 +27,7 @@
 - Smoke Tests
 
 
-### Principal Projects
+### Main Projects
 | Project   |      Description      | 
 |----------|:-------------:|
 | [Cypress Test: Apply Digital](https://github.com/alifcflores/apply-skill-test)| Showcasing my automation skills using Cypress for Apply Digital enterprise. | 
