@@ -30,11 +30,12 @@
 ### Personal Projects
 | Project   |      Description      | 
 |----------|:-------------:|
-| [API Sicredi](https://github.com/alifcflores/api-sicredi) | Technical challenge for Sicredi company using Java and RestAssured. | 
-| [API Finances](https://github.com/alifcflores/finances) |  API I'm building to control my personal finances.   |  
-| [Cypress Training](https://github.com/alifcflores/cypress-training)| This was a training I carried out for the QAs team at the company CredPago. | 
-| [Deel Tests](https://github.com/alifcflores/deel-tests)| Technical challenge carried out in Cypress for Deel company.  | 
-| [CP Performance](https://github.com/alifcflores/cp-performance)| pilot project using K6, docker and grafana | 
+| [RestAssured API:  Sicredi](https://github.com/alifcflores/api-sicredi) | Technical challenge for Sicredi company using Java and RestAssured. | 
+| [Javascript API: Personal Finances](https://github.com/alifcflores/finances) |  API I'm building to control my personal finances.   |  
+| [Cypress Test: Apply Digital](https://github.com/alifcflores/apply-skill-test)| Showcasing my automation skills using Cypress for Apply Digital enterprise. | 
+| [Cypress Test: Deel](https://github.com/alifcflores/deel-tests)| Technical challenge carried out in Cypress for Deel company.  | 
+| [Cypress Team Training](https://github.com/alifcflores/cypress-training)| This was a training I carried out for the QAs team at the company CredPago. | 
+| [K6 Performance Metrics](https://github.com/alifcflores/cp-performance)| pilot project using K6, docker and grafana | 
 
 ### Code Challenges (Using [Exercism](https://exercism.org/))
 Exercism provides technical challenges with an engaging story. The repositories below are my solutions to the proposed challenges.
